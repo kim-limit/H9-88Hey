@@ -7,6 +7,7 @@ import { trimNPerformanceHandler } from './api/trim-n-performance';
 import { trimSelectOptionHandler } from './api/trim-select-option';
 import { trimDefaultOptionHandler } from './api/trim-default-option';
 import { trimHGenuineAccessoriesHandler } from './api/trim-h-genuine-accessories';
+import { testHandler } from './api/test';
 
 export const handlers = [
   ...trimHandler,
@@ -18,4 +19,5 @@ export const handlers = [
   ...trimColorHandler,
   ...engineHandler,
   ...bodyTypeHandler,
+  ...testHandler,
 ];
